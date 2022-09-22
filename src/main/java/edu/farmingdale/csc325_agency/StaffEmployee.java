@@ -1,6 +1,6 @@
 package edu.farmingdale.csc325_agency;
 
-public class StaffEmployee {
+public class StaffEmployee extends StaffMember{
     
     protected String socialSecurityNumber;
     protected double payRate;
@@ -9,9 +9,9 @@ public class StaffEmployee {
     //  TODO 2: Sets up this staff employee with the specified
     //  information.
     //-----------------------------------------------------------------
-    public StaffEmployee(String eName, String eAddress, String ePhone,
-            String socSecNumber, double rate)
+    public StaffEmployee(String eName, String eAddress, String ePhone,String socSecNumber, double rate)
     {
+
         super(eName, eAddress, ePhone);
 
         socialSecurityNumber = socSecNumber;
@@ -24,7 +24,9 @@ public class StaffEmployee {
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+        String information = "";
+        //information = 
+        return information;
     }
 
     //-----------------------------------------------------------------
@@ -32,6 +34,6 @@ public class StaffEmployee {
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return payRate * 40;
     }
 }
