@@ -1,18 +1,17 @@
 package edu.farmingdale.csc325_agency;
 
-public class TempEmployee {
+public class TempEmployee extends StaffEmployee{
        private int hoursWorked;
 
     //-----------------------------------------------------------------
     //  Constructor: Sets up this hourly employee using the specified
     //  information.
     //-----------------------------------------------------------------
-    public TempEmploee(String eName, String eAddress, String ePhone,
-            String socSecNumber, double rate)
+    public TempEmployee(String eName, String eAddress, String ePhone, String socSecNumber, double rate)
     {
         super(eName, eAddress, ePhone, socSecNumber, rate);
 
-        hoursWorked = 0;
+        this.hoursWorked = 0;
     }
 
     //-----------------------------------------------------------------
@@ -21,7 +20,7 @@ public class TempEmployee {
     //-----------------------------------------------------------------
     public void addHours(int moreHours)
     {
-        
+        this.hoursWorked += moreHours;
     }
 
     //-----------------------------------------------------------------
@@ -29,7 +28,7 @@ public class TempEmployee {
     //-----------------------------------------------------------------
     public double pay()
     {
-        return 0;
+        return this.payRate;
     }
 
     //-----------------------------------------------------------------
@@ -37,6 +36,8 @@ public class TempEmployee {
     //-----------------------------------------------------------------
     public String toString()
     {
-        return "";
+        return "Name: " + this.name + "\nAddess: " + this.address + "\nPhone: " + this.phone +
+                "\nSocial Security Number: " + this.socialSecurityNumber + "\nPaid: " + this.payRate + "\nCurrent Hours: " + this.hoursWorked 
+                + "\n+ + + + + + + + + + + + + + + + + + + + + + + + +";
     }
 }

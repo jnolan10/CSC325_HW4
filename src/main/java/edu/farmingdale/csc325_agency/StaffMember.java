@@ -1,6 +1,6 @@
 package edu.farmingdale.csc325_agency;
 
-public class StaffMember {
+public abstract class StaffMember {
         protected String name;
     protected String address;
     protected String phone;
@@ -21,7 +21,8 @@ public class StaffMember {
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Name: " + this.name + "\nAddess: " + this.address + "\nPhone: " + this.phone 
+                + "\n+ + + + + + + + + + + + + + + + + + + + + + + + +";
     }
 
     //-----------------------------------------------------------------

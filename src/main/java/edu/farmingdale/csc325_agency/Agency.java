@@ -7,7 +7,12 @@ public class Agency {
     public static void main(String[] args)
     {
         Staff personnel = new Staff();
-
-        personnel.payday();
+        
+        //personnel.payday();
+        
+        for(int i = 0; i < personnel.staffList.length; i++)
+        {
+            System.out.println(personnel.staffList[i]);
+        }
     }
 }

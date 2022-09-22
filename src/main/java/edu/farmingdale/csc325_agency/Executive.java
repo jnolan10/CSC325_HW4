@@ -20,7 +20,7 @@ public class Executive extends StaffEmployee {
     //-----------------------------------------------------------------
     public void awardBonus(double execBonus)
     {
-        bonus = execBonus;
+        this.bonus = execBonus;
     }
 
     //-----------------------------------------------------------------
@@ -31,4 +31,5 @@ public class Executive extends StaffEmployee {
     {
        return this.payRate + this.bonus;
     }
+    
 }

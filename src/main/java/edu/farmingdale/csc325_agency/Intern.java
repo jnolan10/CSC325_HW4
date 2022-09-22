@@ -1,6 +1,6 @@
 package edu.farmingdale.csc325_agency;
 
-public class Intern extends StaffEmployee{
+public class Intern extends StaffMember{
      //-----------------------------------------------------------------
     //  TODO 2: Constructor: Sets up this intern using the specified
     //  information.
@@ -16,6 +16,6 @@ public class Intern extends StaffEmployee{
     //-----------------------------------------------------------------
     public double pay()
     {
-      return 0;
+        return 0;
     }
 }

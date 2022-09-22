@@ -24,7 +24,9 @@ public class StaffEmployee extends StaffMember{
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+        return "Name: " + this.name + "\nAddess: " + this.address + "\nPhone: " + this.phone +
+                "\nSocial Security Number: " + this.socialSecurityNumber + "\nPaid: " + this.payRate 
+                + "\n+ + + + + + + + + + + + + + + + + + + + + + + + +";
     }
 
     //-----------------------------------------------------------------
@@ -32,6 +34,6 @@ public class StaffEmployee extends StaffMember{
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return this.payRate;
     }
 }
