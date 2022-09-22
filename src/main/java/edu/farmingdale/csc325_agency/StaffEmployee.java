@@ -1,6 +1,6 @@
 package edu.farmingdale.csc325_agency;
 
-public class StaffEmployee {
+public class StaffEmployee extends StaffMember{
     
     protected String socialSecurityNumber;
     protected double payRate;

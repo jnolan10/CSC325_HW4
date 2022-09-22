@@ -1,12 +1,13 @@
 package edu.farmingdale.csc325_agency;
 
-public class Intern {
+public class Intern extends StaffEmployee{
      //-----------------------------------------------------------------
     //  TODO 2: Constructor: Sets up this intern using the specified
     //  information.
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
+        super(eName, eAddress, ePhone);
         
     }
 

@@ -1,6 +1,6 @@
 package edu.farmingdale.csc325_agency;
 
-public class Executive {
+public class Executive extends StaffEmployee {
      private double bonus;
 
     //-----------------------------------------------------------------
@@ -29,6 +29,6 @@ public class Executive {
     //-----------------------------------------------------------------
     public double pay()
     {
-       return 0;
+       return this.payRate + this.bonus;
     }
 }
