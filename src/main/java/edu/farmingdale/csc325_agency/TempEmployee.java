@@ -1,14 +1,42 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.farmingdale.csc325_agency;
 
-/**
- *
- * @author soblab
- */
 public class TempEmployee {
-    
+       private int hoursWorked;
+
+    //-----------------------------------------------------------------
+    //  Constructor: Sets up this hourly employee using the specified
+    //  information.
+    //-----------------------------------------------------------------
+    public TempEmploee(String eName, String eAddress, String ePhone,
+            String socSecNumber, double rate)
+    {
+        super(eName, eAddress, ePhone, socSecNumber, rate);
+
+        hoursWorked = 0;
+    }
+
+    //-----------------------------------------------------------------
+    // TODO2: Adds the specified number of hours to this employee's
+    //  accumulated hours.
+    //-----------------------------------------------------------------
+    public void addHours(int moreHours)
+    {
+        
+    }
+
+    //-----------------------------------------------------------------
+    // TODO3: Computes and returns the pay for this hourly employee.
+    //-----------------------------------------------------------------
+    public double pay()
+    {
+        return 0;
+    }
+
+    //-----------------------------------------------------------------
+    // TODO4: Returns information about this hourly employee as a string.
+    //-----------------------------------------------------------------
+    public String toString()
+    {
+        return "";
+    }
 }
