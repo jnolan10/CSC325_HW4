@@ -1,14 +1,37 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.farmingdale.csc325_agency;
 
-/**
- *
- * @author soblab
- */
 public class StaffEmployee {
     
+    protected String socialSecurityNumber;
+    protected double payRate;
+
+    //-----------------------------------------------------------------
+    //  TODO 2: Sets up this staff employee with the specified
+    //  information.
+    //-----------------------------------------------------------------
+    public StaffEmployee(String eName, String eAddress, String ePhone,
+            String socSecNumber, double rate)
+    {
+        super(eName, eAddress, ePhone);
+
+        socialSecurityNumber = socSecNumber;
+        payRate = rate;
+    }
+
+    //-----------------------------------------------------------------
+    // TODO 3: complete the implementation of toString to return information 
+    //          about a staff employee as a string.
+    //-----------------------------------------------------------------
+    public String toString()
+    {
+    
+    }
+
+    //-----------------------------------------------------------------
+    // TODO 4:  Returns the pay rate for this staff employee.
+    //-----------------------------------------------------------------
+    public double pay()
+    {
+       
+    }
 }

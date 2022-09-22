@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.farmingdale.csc325_agency;
 
-/**
- *
- * @author soblab
- */
 public class Intern {
-    
+     //-----------------------------------------------------------------
+    //  TODO 2: Constructor: Sets up this intern using the specified
+    //  information.
+    //-----------------------------------------------------------------
+    public Intern(String eName, String eAddress, String ePhone)
+    {
+        
+    }
+
+    //-----------------------------------------------------------------
+    // TODO 3:  Returns a zero pay value for this intern.
+    //-----------------------------------------------------------------
+    public double pay()
+    {
+      return 0;
+    }
 }
